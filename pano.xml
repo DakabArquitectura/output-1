@@ -1,353 +1,283 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.1.9" apprev="20995" start="node1" hassounds="1">
-  <panorama id="node1">
-    <input overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" height="4096" levelbiashidpi="1.000" width="4096" levelingroll="0" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+<tour start="node13" hassounds="1" apprev="20995" appversion="7.1.9">
+  <panorama id="node13">
+    <input levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2048" levelingpitch="0" height="2048">
+      <level width="2048" height="2048" predecode="0" preload="0"/>
+      <level width="1024" height="1024" predecode="0" preload="0"/>
+      <level width="512" height="512" predecode="0" preload="0"/>
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-74.6307">
+    <view fovmode="2" pannorth="0">
       <start fov="100" pan="0" tilt="0" projection="4"/>
       <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" pan="360" scaletofit="1" fovstereographic="330" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata info="" datetime="31/07/2025 10:57 a. m." tags="Tour360-LivingPedregal" title="Acceso Peatonal" latitude="" copyright="" source="" comment="" nodeid="node1" author="" longitude="" customnodeid="" heading="-74.6307" description="">
-      <mapcoords y_floorplan_percent="68.3548" y="-1.51062" x="0.32135" mapid="FloorPlan01" x_floorplan_percent="11.9251"/>
-    </userdata>
-    <hotspots width="180" wordwrap="1" height="0" smoothmovement="0">
-      <label bordercolor="0x000000" textalpha="1" borderradius="1" enabled="1" textcolor="0xffffff" height="0" border="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" background="1" wordwrap="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
-      <hotspot title="PasilloJardín1" skinid="ht_node" url="{node2}" pan="-91.15" distance="2" id="Vista2" target="-88.1/0.8/100.0" tilt="1.96" description=""/>
-      <hotspot title="" skinid="ht_node" url="{node3}" pan="-180.2" distance="2" id="Vista Juegos Infantiles" target="-86.8/-0.1/100.0" tilt="-0.21" description=""/>
+    <userdata comment="" datetime="" author="" title="Acceso Roof Garden" copyright="" heading="0" source="" tags="Para360" description="" info="" longitude="" nodeid="node13" customnodeid="" latitude=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label borderradius="1" background="1" backgroundalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" border="1" borderalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point02" title="Ludoteca" pan="-343.11" skinid="ht_node" distance="2" tilt="-0.45" url="{node14}" description="" target="36.6/-7.0/100.0"/>
+      <hotspot id="Point03" title="Common Kitchen" pan="-161.89" skinid="ht_node" distance="2" tilt="-0.18" url="{node16}" description="" target="-111.3/-1.2/100.0"/>
     </hotspots>
     <media>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-91.130" mode="2" tiltsize="10.000" id="Element01" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-5.480">
+      <sound id="Element01" field="90.000" pan="-343.110" startmutedmobile="0" mode="2" tilt="-8.290" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="1">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-180.450" mode="2" tiltsize="10.000" id="Element02" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-7.240">
+      <sound id="Element03" field="90.000" pan="-161.830" startmutedmobile="0" mode="2" tilt="-7.680" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
+        <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomspeed="2" type="mesh" zoomafteroutfov="40" enabled="1" zoomin="7" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" blendcolor="0x000000" softedge="0" delay="none"/>
-    <autorotate speed="0.100" nodedelay="45.00" noderandom="0" enabled="1" useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" nodefilter="" delay="5.00"/>
-    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" sensitivity="8" rubberband="0" contextvr="1" contextprojections="0" simulatemass="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" zoomcentercursor="1" hideabout="0" invertwheel="0" speedwheel="1"/>
-    <vr toggleskinbutton="0" defaulthsscale="100" skinbuttonposition="0"/>
+    <transition softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" zoomin="0"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" enabled="1" speed="0.100" startloaded="0" noderandom="1" useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" hideabout="0" contextvr="1" rubberband="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" zoomcentercursor="1" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
+    <vr toggleskinbutton="1" skinbuttonposition="0" defaulthsscale="100"/>
   </panorama>
-  <panorama id="node2">
-    <input overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" height="4096" levelbiashidpi="1.000" width="4096" levelingroll="0" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node14">
+    <input levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2048" levelingpitch="0" height="2048">
+      <level width="2048" height="2048" predecode="0" preload="0"/>
+      <level width="1024" height="1024" predecode="0" preload="0"/>
+      <level width="512" height="512" predecode="0" preload="0"/>
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0.528217">
+    <view fovmode="2" pannorth="0">
       <start fov="100" pan="0" tilt="0" projection="4"/>
       <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" pan="360" scaletofit="1" fovstereographic="330" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata info="" datetime="31/07/2025 10:57 a. m." tags="Tour360-LivingPedregal" title="Andadores - Acceso Torre B" latitude="" copyright="" source="" comment="" nodeid="node2" author="" longitude="" customnodeid="" heading="0.528217" description="">
-      <mapcoords y_floorplan_percent="49.0912" y="-1.0849" x="0.443573" mapid="FloorPlan01" x_floorplan_percent="16.4607"/>
-    </userdata>
-    <hotspots width="180" wordwrap="1" height="0" smoothmovement="0">
-      <label bordercolor="0x000000" textalpha="1" borderradius="1" enabled="1" textcolor="0xffffff" height="0" border="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" background="1" wordwrap="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
-      <hotspot title="" skinid="ht_node" url="{node5}" pan="-88.05" distance="2" id="Acceso Torre B" target="-86.8/0.2/100.0" tilt="1.42" description=""/>
-      <hotspot title="" skinid="ht_node" url="{node1}" pan="-199.12" distance="2" id="Acceso Peatonal" target="-91.3/4.7/100.0" tilt="0.25" description=""/>
+    <userdata comment="" datetime="" author="" title="Ludoteca" copyright="" heading="0" source="" tags="Para360" description="" info="" longitude="" nodeid="node14" customnodeid="" latitude=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label borderradius="1" background="1" backgroundalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" border="1" borderalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" title="Roof Garden" pan="-132.87" skinid="ht_node" distance="2" tilt="-2.05" url="{node13}" description="" target="-79.5/0.9/100.0"/>
     </hotspots>
     <media>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-87.880" mode="2" tiltsize="10.000" id="Element01" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-5.830">
+      <sound id="Element01" field="90.000" pan="-132.870" startmutedmobile="0" mode="2" tilt="-9.040" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="1">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-199.180" mode="2" tiltsize="10.000" id="Element02" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-6.500">
-        <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -1.mp3"/>
-      </sound>
     </media>
-    <transition zoomout="0" zoomspeed="2" type="mesh" zoomafteroutfov="40" enabled="1" zoomin="7" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" blendcolor="0x000000" softedge="0" delay="none"/>
-    <autorotate speed="0.100" nodedelay="45.00" noderandom="0" enabled="1" useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" nodefilter="" delay="5.00"/>
-    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" sensitivity="8" rubberband="0" contextvr="1" contextprojections="0" simulatemass="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" zoomcentercursor="1" hideabout="0" invertwheel="0" speedwheel="1"/>
-    <vr toggleskinbutton="0" defaulthsscale="100" skinbuttonposition="0"/>
+    <transition softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" zoomin="0"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" enabled="1" speed="0.100" startloaded="0" noderandom="1" useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" hideabout="0" contextvr="1" rubberband="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" zoomcentercursor="1" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
+    <vr toggleskinbutton="1" skinbuttonposition="0" defaulthsscale="100"/>
   </panorama>
-  <panorama id="node3">
-    <input overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" height="4096" levelbiashidpi="1.000" width="4096" levelingroll="0" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node16">
+    <input levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2048" levelingpitch="0" height="2048">
+      <level width="2048" height="2048" predecode="0" preload="0"/>
+      <level width="1024" height="1024" predecode="0" preload="0"/>
+      <level width="512" height="512" predecode="0" preload="0"/>
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-60.5355">
+    <view fovmode="2" pannorth="0">
       <start fov="100" pan="0" tilt="0" projection="4"/>
       <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" pan="360" scaletofit="1" fovstereographic="330" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata info="" datetime="31/07/2025 10:58 a. m." tags="Tour360-LivingPedregal" title="Juegos Infantiles - Petzone" latitude="" copyright="" source="" comment="" nodeid="node3" author="" longitude="" customnodeid="" heading="-60.5355" description="">
-      <mapcoords y_floorplan_percent="76.4331" y="-1.68915" x="1.19476" mapid="FloorPlan01" x_floorplan_percent="44.3369"/>
-    </userdata>
-    <hotspots width="180" wordwrap="1" height="0" smoothmovement="0">
-      <label bordercolor="0x000000" textalpha="1" borderradius="1" enabled="1" textcolor="0xffffff" height="0" border="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" background="1" wordwrap="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
-      <hotspot title="Vista Jardin Seco" skinid="ht_node" url="{node4}" pan="-95.92" distance="2" id="Jardín Seco" target="-90.8/0.8/100.0" tilt="1.22" description=""/>
-      <hotspot title="Acceso Peatonal" skinid="ht_node" url="{node1}" pan="-34.02" distance="2" id="Acceso Peatonal" target="-131.3/4.6/100.0" tilt="-0.18" description=""/>
+    <userdata comment="" datetime="" author="" title="Sala de TV - Common Kitchen" copyright="" heading="0" source="" tags="Para360" description="" info="" longitude="" nodeid="node16" customnodeid="" latitude=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label borderradius="1" background="1" backgroundalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" border="1" borderalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" title="" pan="-290.11" skinid="ht_node" distance="2" tilt="-1.43" url="{node13}" description="" target="-105.9/1.7/100.0"/>
+      <hotspot id="Point02" title="Common Kitchen - Exterior" pan="-137.62" skinid="ht_node" distance="2" tilt="2.04" url="{node12}" description="" target="-76.2/1.7/100.0"/>
     </hotspots>
     <media>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-34.030" mode="2" tiltsize="10.000" id="Element01" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-6.690">
+      <sound id="Element01" field="90.000" pan="-289.970" startmutedmobile="0" mode="2" tilt="-9.120" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-95.790" mode="2" tiltsize="10.000" id="Element02" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-5.150">
+      <sound id="Element02" field="90.000" pan="-137.620" startmutedmobile="0" mode="2" tilt="-5.220" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="1">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomspeed="2" type="mesh" zoomafteroutfov="40" enabled="1" zoomin="7" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" blendcolor="0x000000" softedge="0" delay="none"/>
-    <autorotate speed="0.100" nodedelay="45.00" noderandom="0" enabled="1" useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" nodefilter="" delay="5.00"/>
-    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" sensitivity="8" rubberband="0" contextvr="1" contextprojections="0" simulatemass="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" zoomcentercursor="1" hideabout="0" invertwheel="0" speedwheel="1"/>
-    <vr toggleskinbutton="0" defaulthsscale="100" skinbuttonposition="0"/>
+    <transition softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" zoomin="0"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" enabled="1" speed="0.100" startloaded="0" noderandom="1" useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" hideabout="0" contextvr="1" rubberband="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" zoomcentercursor="1" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
+    <vr toggleskinbutton="1" skinbuttonposition="0" defaulthsscale="100"/>
   </panorama>
-  <panorama id="node4">
-    <input overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" height="4096" levelbiashidpi="1.000" width="4096" levelingroll="0" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node12">
+    <input levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2048" levelingpitch="0" height="2048">
+      <level width="2048" height="2048" predecode="0" preload="0"/>
+      <level width="1024" height="1024" predecode="0" preload="0"/>
+      <level width="512" height="512" predecode="0" preload="0"/>
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-0.277263">
+    <view fovmode="2" pannorth="0">
       <start fov="100" pan="0" tilt="0" projection="4"/>
       <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" pan="360" scaletofit="1" fovstereographic="330" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata info="" datetime="31/07/2025 11:19 a. m." tags="Tour360-LivingPedregal" title="Jardín Seco" latitude="" copyright="" source="" comment="" nodeid="node4" author="" longitude="" customnodeid="" heading="-0.277263" description="">
-      <mapcoords y_floorplan_percent="62.4515" y="-1.38016" x="1.45432" mapid="FloorPlan01" x_floorplan_percent="53.9687"/>
-    </userdata>
-    <hotspots width="180" wordwrap="1" height="0" smoothmovement="0">
-      <label bordercolor="0x000000" textalpha="1" borderradius="1" enabled="1" textcolor="0xffffff" height="0" border="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" background="1" wordwrap="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
-      <hotspot title="Andadores - Acceso Torre" skinid="ht_node" url="{node3}" pan="-241.15" distance="2" id="Andadores - Acceso Torre B" target="-86.8/-0.7/100.0" tilt="-1.65" description=""/>
-      <hotspot title="Entrada Torre C" skinid="ht_node" url="{node5}" pan="-89.93" distance="2" id="Point01" target="-89.0/1.0/100.0" tilt="0.03" description=""/>
+    <userdata comment="" datetime="14/08/2025 12:22 p. m." author="" title="Common Kitchen" copyright="" heading="0" source="" tags="Para360" description="" info="" longitude="" nodeid="node12" customnodeid="" latitude=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label borderradius="1" background="1" backgroundalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" border="1" borderalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" title="Common Kitchen - Interior" pan="-282.57" skinid="ht_node" distance="2" tilt="-0.94" url="{node16}" description="" target="6.6/-3.3/100.0"/>
+      <hotspot id="Point02" title="Gimnasio Exterior" pan="-22.93" skinid="ht_node" distance="2" tilt="7.84" url="{node18}" description="" target="-88.4/-4.9/100.0"/>
     </hotspots>
     <media>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-89.900" mode="2" tiltsize="10.000" id="Element01" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-7.280">
+      <sound id="Element01" field="90.000" pan="-282.570" startmutedmobile="0" mode="2" tilt="-8.510" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-240.840" mode="2" tiltsize="10.000" id="Element02" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-8.540">
+      <sound id="Element02" field="90.000" pan="-22.970" startmutedmobile="0" mode="2" tilt="0.910" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomspeed="2" type="mesh" zoomafteroutfov="40" enabled="1" zoomin="7" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" blendcolor="0x000000" softedge="0" delay="none"/>
-    <autorotate speed="0.100" nodedelay="45.00" noderandom="0" enabled="1" useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" nodefilter="" delay="5.00"/>
-    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" sensitivity="8" rubberband="0" contextvr="1" contextprojections="0" simulatemass="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" zoomcentercursor="1" hideabout="0" invertwheel="0" speedwheel="1"/>
-    <vr toggleskinbutton="0" defaulthsscale="100" skinbuttonposition="0"/>
+    <transition softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" zoomin="0"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" enabled="1" speed="0.100" startloaded="0" noderandom="1" useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" hideabout="0" contextvr="1" rubberband="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" zoomcentercursor="1" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
+    <vr toggleskinbutton="1" skinbuttonposition="0" defaulthsscale="100"/>
   </panorama>
-  <panorama id="node5">
-    <input overlap="1" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" height="4096" levelbiashidpi="1.000" width="4096" levelingroll="0" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node18">
+    <input levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2048" levelingpitch="0" height="2048">
+      <level width="2048" height="2048" predecode="0" preload="0"/>
+      <level width="1024" height="1024" predecode="0" preload="0"/>
+      <level width="512" height="512" predecode="0" preload="0"/>
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-57.8148">
+    <view fovmode="2" pannorth="0">
       <start fov="100" pan="0" tilt="0" projection="4"/>
       <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" pan="360" scaletofit="1" fovstereographic="330" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata info="" datetime="31/07/2025 11:19 a. m." tags="Tour360-LivingPedregal" title="Jardín Verde" latitude="" copyright="" source="" comment="" nodeid="node5" author="" longitude="" customnodeid="" heading="-57.8148" description="">
-      <mapcoords y_floorplan_percent="37.4709" y="-0.828094" x="1.35132" mapid="FloorPlan01" x_floorplan_percent="50.1465"/>
-    </userdata>
-    <hotspots width="180" wordwrap="1" height="0" smoothmovement="0">
-      <label bordercolor="0x000000" textalpha="1" borderradius="1" enabled="1" textcolor="0xffffff" height="0" border="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" background="1" wordwrap="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
-      <hotspot title="Camastros y Asoleadero" skinid="ht_node" url="{node6}" pan="-116.28" distance="2" id="Camastros" target="-45.4/-1.5/100.0" tilt="1.39" description=""/>
-      <hotspot title="Vista Acceso Torre B" skinid="ht_node" url="{node2}" pan="-293.46" distance="2" id="Vista Acceso Torre B" target="" tilt="-0.72" description=""/>
-      <hotspot title="Pasillo a Mirador" skinid="ht_node" url="{node8}" pan="-49.2" distance="2" id="Pasillo Verde" target="-90.2/-0.8/100.0" tilt="0.04" description=""/>
+    <userdata comment="" datetime="14/08/2025 12:21 p. m." author="" title="Gimnasio - Aire Libre" copyright="" heading="0" source="" tags="Para360" description="" info="" longitude="" nodeid="node18" customnodeid="" latitude=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label borderradius="1" background="1" backgroundalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" border="1" borderalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" title="Common Kitchen" pan="-261.87" skinid="ht_node" distance="2" tilt="2.18" url="{node12}" description="" target="-92.6/-1.0/100.0"/>
+      <hotspot id="Point02" title="Yoga - Aire Libre" pan="-351.85" skinid="ht_node" distance="2" tilt="3.32" url="{node17}" description="" target="-113.0/1.0/100.0"/>
     </hotspots>
     <media>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-116.290" mode="2" tiltsize="10.000" id="Element01" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-5.440">
+      <sound id="Element01" field="90.000" pan="-261.910" startmutedmobile="0" mode="2" tilt="-5.110" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-49.360" mode="2" tiltsize="10.000" id="Element02" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-6.320">
-        <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
-      </sound>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-293.540" mode="2" tiltsize="10.000" id="Element03" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-6.970">
+      <sound id="Element02" field="90.000" pan="-351.940" startmutedmobile="0" mode="2" tilt="-4.020" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomspeed="2" type="mesh" zoomafteroutfov="40" enabled="1" zoomin="7" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" blendcolor="0x000000" softedge="0" delay="none"/>
-    <autorotate speed="0.100" nodedelay="45.00" noderandom="0" enabled="1" useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" nodefilter="" delay="5.00"/>
-    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" sensitivity="8" rubberband="0" contextvr="1" contextprojections="0" simulatemass="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" zoomcentercursor="1" hideabout="0" invertwheel="0" speedwheel="1"/>
-    <vr toggleskinbutton="0" defaulthsscale="100" skinbuttonposition="0"/>
+    <transition softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" zoomin="0"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" enabled="1" speed="0.100" startloaded="0" noderandom="1" useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" hideabout="0" contextvr="1" rubberband="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" zoomcentercursor="1" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
+    <vr toggleskinbutton="1" skinbuttonposition="0" defaulthsscale="100"/>
   </panorama>
-  <panorama id="node11">
-    <input overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" height="4096" levelbiashidpi="1.000" width="4096" levelingroll="0" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node17">
+    <input levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" overlap="1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2048" levelingpitch="0" height="2048">
+      <level width="2048" height="2048" predecode="0" preload="0"/>
+      <level width="1024" height="1024" predecode="0" preload="0"/>
+      <level width="512" height="512" predecode="0" preload="0"/>
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-180.88">
+    <view fovmode="2" pannorth="0">
       <start fov="100" pan="0" tilt="0" projection="4"/>
       <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" pan="360" scaletofit="1" fovstereographic="330" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata info="" datetime="04/08/2025 01:13 p. m." tags="Actualizados20" title="Vista de la Alberca - Camastros" latitude="" copyright="" source="" comment="" nodeid="node11" author="" longitude="" customnodeid="" heading="-180.88" description="">
-      <mapcoords y_floorplan_percent="25.2913" y="-0.558929" x="2.35966" mapid="FloorPlan01" x_floorplan_percent="87.5653"/>
-    </userdata>
-    <hotspots width="180" wordwrap="1" height="0" smoothmovement="0">
-      <label bordercolor="0x000000" textalpha="1" borderradius="1" enabled="1" textcolor="0xffffff" height="0" border="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" background="1" wordwrap="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
-      <hotspot title="Torre B" skinid="ht_node" url="{node4}" pan="-337.66" distance="2" id="Point01" target="-88.2/2.4/100.0" tilt="0.46" description=""/>
-      <hotspot title="Camastros y Asoleadero" skinid="ht_node" url="{node6}" pan="-90.93" distance="2" id="Point02" target="-44.9/-0.3/100.0" tilt="1.96" description=""/>
+    <userdata comment="" datetime="14/08/2025 12:21 p. m." author="" title="Yoga - Aire Libre" copyright="" heading="0" source="" tags="Para360" description="" info="" longitude="" nodeid="node17" customnodeid="" latitude=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label borderradius="1" background="1" backgroundalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" border="1" borderalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" title="Gimansio - Aire Libre" pan="-300.64" skinid="ht_node" distance="2" tilt="0.51" url="{node18}" description="" target="134.3/1.2/100.0"/>
+      <hotspot id="Point02" title="Roof Garden - Asadores" pan="-52.72" skinid="ht_node" distance="2" tilt="5.47" url="{node20}" description="" target="-94.6/3.1/100.0"/>
     </hotspots>
     <media>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-337.820" mode="2" tiltsize="10.000" id="Element01" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-5.710">
+      <sound id="Element01" field="90.000" pan="-300.640" startmutedmobile="0" mode="2" tilt="-6.490" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-90.920" mode="2" tiltsize="10.000" id="Element02" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-4.620">
+      <sound id="Element02" field="90.000" pan="-52.500" startmutedmobile="0" mode="2" tilt="-1.750" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="10" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomspeed="2" type="mesh" zoomafteroutfov="40" enabled="1" zoomin="7" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" blendcolor="0x000000" softedge="0" delay="none"/>
-    <autorotate speed="0.100" nodedelay="45.00" noderandom="0" enabled="1" useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" nodefilter="" delay="5.00"/>
-    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" sensitivity="8" rubberband="0" contextvr="1" contextprojections="0" simulatemass="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" zoomcentercursor="1" hideabout="0" invertwheel="0" speedwheel="1"/>
-    <vr toggleskinbutton="0" defaulthsscale="100" skinbuttonposition="0"/>
+    <transition softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" zoomin="0"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" enabled="1" speed="0.100" startloaded="0" noderandom="1" useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" hideabout="0" contextvr="1" rubberband="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" zoomcentercursor="1" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
+    <vr toggleskinbutton="1" skinbuttonposition="0" defaulthsscale="100"/>
   </panorama>
-  <panorama id="node6">
-    <input overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" height="4096" levelbiashidpi="1.000" width="4096" levelingroll="0" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node20">
+    <input levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" overlap="1" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2048" levelingpitch="0" height="2048">
+      <level width="2048" height="2048" predecode="0" preload="0"/>
+      <level width="1024" height="1024" predecode="0" preload="0"/>
+      <level width="512" height="512" predecode="0" preload="0"/>
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-0.371033">
+    <view fovmode="2" pannorth="0">
       <start fov="100" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
+      <flyin fov="170" pan="0" tilt="-90" projection="4"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" pan="360" scaletofit="1" fovstereographic="330" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata info="" datetime="31/07/2025 11:20 a. m." tags="Tour360-LivingPedregal" title="Camastros - Asoleadero" latitude="" copyright="" source="" comment="" nodeid="node6" author="" longitude="" customnodeid="" heading="-0.371033" description="">
-      <mapcoords y_floorplan_percent="21.8735" y="-0.483398" x="1.55216" mapid="FloorPlan01" x_floorplan_percent="57.5997"/>
-    </userdata>
-    <hotspots width="180" wordwrap="1" height="0" smoothmovement="0">
-      <label bordercolor="0x000000" textalpha="1" borderradius="1" enabled="1" textcolor="0xffffff" height="0" border="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" background="1" wordwrap="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
-      <hotspot title="Pasillo Verde" skinid="ht_node" url="{node5}" pan="-202.24" distance="2" id="Pasillo Verde" target="-89.2/1.1/100.0" tilt="1.93" description=""/>
-      <hotspot title="Camastros y Asoleadero" skinid="ht_node" url="{node11}" pan="-90.63" distance="2" id="Point01" target="-111.8/9.7/100.0" tilt="2.34" description=""/>
+    <userdata comment="" datetime="14/08/2025 12:20 p. m." author="" title="Roof Garden - Asadores 1" copyright="" heading="0" source="" tags="Para360" description="" info="" longitude="" nodeid="node20" customnodeid="" latitude=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label borderradius="1" background="1" backgroundalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" border="1" borderalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" title="TYoga - Aire Libre" pan="-235.77" skinid="ht_node" distance="2" tilt="5.9" url="{node17}" description="" target="81.5/5.3/100.0"/>
+      <hotspot id="Point02" title="Roof Garden - Asadores 2" pan="-353.36" skinid="ht_node" distance="2" tilt="1.1" url="{node19}" description="" target="0.0/0.0/100.0"/>
     </hotspots>
     <media>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-90.600" mode="2" tiltsize="10.000" id="Element01" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-4.630">
+      <sound id="Element01" field="90.000" pan="-236.020" startmutedmobile="0" mode="2" tilt="-1.770" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-202.380" mode="2" tiltsize="10.000" id="Element02" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-4.720">
+      <sound id="Element02" field="90.000" pan="-353.420" startmutedmobile="0" mode="2" tilt="-6.020" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomspeed="2" type="mesh" zoomafteroutfov="40" enabled="1" zoomin="7" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" blendcolor="0x000000" softedge="0" delay="none"/>
-    <autorotate speed="0.100" nodedelay="45.00" noderandom="0" enabled="1" useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" nodefilter="" delay="5.00"/>
-    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" sensitivity="8" rubberband="0" contextvr="1" contextprojections="0" simulatemass="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" zoomcentercursor="1" hideabout="0" invertwheel="0" speedwheel="1"/>
-    <vr toggleskinbutton="0" defaulthsscale="100" skinbuttonposition="0"/>
+    <transition softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" zoomin="0"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" enabled="1" speed="0.100" startloaded="0" noderandom="1" useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" hideabout="0" contextvr="1" rubberband="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" zoomcentercursor="1" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
+    <vr toggleskinbutton="1" skinbuttonposition="0" defaulthsscale="100"/>
   </panorama>
-  <panorama id="node8">
-    <input overlap="1" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" height="4096" levelbiashidpi="1.000" width="4096" levelingroll="0" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama id="node19">
+    <input levelbiashidpi="1.000" levelbias="0.400" leveltilesize="510" overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2048" levelingpitch="0" height="2048">
+      <level width="2048" height="2048" predecode="0" preload="0"/>
+      <level width="1024" height="1024" predecode="0" preload="0"/>
+      <level width="512" height="512" predecode="0" preload="0"/>
+      <level width="256" height="256" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="-180.153">
+    <view fovmode="2" pannorth="0">
       <start fov="100" pan="0" tilt="0" projection="4"/>
       <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fov="140" pan="360" scaletofit="1" fovstereographic="330" fovfisheye="360" tilt="90"/>
     </view>
-    <userdata info="" datetime="31/07/2025 11:21 a. m." tags="Tour360-LivingPedregal" title="Jardín Verde" latitude="" copyright="" source="" comment="" nodeid="node8" author="" longitude="" customnodeid="" heading="-180.153" description="">
-      <mapcoords y_floorplan_percent="11.0611" y="-0.244446" x="1.30497" mapid="FloorPlan01" x_floorplan_percent="48.4266"/>
-    </userdata>
-    <hotspots width="180" wordwrap="1" height="0" smoothmovement="0">
-      <label bordercolor="0x000000" textalpha="1" borderradius="1" enabled="1" textcolor="0xffffff" height="0" border="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" background="1" wordwrap="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
-      <hotspot title="Mirador - Firepit" skinid="ht_node" url="{node9}" pan="-90.23" distance="2" id="Mirador Firepit" target="-121.3/-1.7/100.0" tilt="0.22" description=""/>
-      <hotspot title="" skinid="ht_node" url="{node5}" pan="-357.66" distance="2" id="Pasillo Verde" target="-89.2/0.2/100.0" tilt="1.09" description=""/>
+    <userdata comment="" datetime="14/08/2025 12:22 p. m." author="" title="Roof Garden - Asadores 2" copyright="" heading="0" source="" tags="Para360" description="" info="" longitude="" nodeid="node19" customnodeid="" latitude=""/>
+    <hotspots width="180" height="20" smoothmovement="0" wordwrap="1">
+      <label borderradius="1" background="1" backgroundalpha="1" bordercolor="0x000000" width="180" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" border="1" borderalpha="1" wordwrap="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1"/>
+      <hotspot id="Point01" title="Yoga - Aire Libre" pan="-194.13" skinid="ht_node" distance="2" tilt="-1.09" url="{node20}" description="" target="-178.1/0.6/100.0"/>
     </hotspots>
     <media>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-90.250" mode="2" tiltsize="10.000" id="Element01" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-6.020">
-        <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
-      </sound>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-357.580" mode="2" tiltsize="10.000" id="Element02" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-5.260">
+      <sound id="Element01" field="90.000" pan="-194.260" startmutedmobile="0" mode="2" tilt="-8.890" tiltsize="10.000" pansize="10.000" ambientlevel="0.000" level="1.000" loop="0" nodechangekeep="0">
         <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
       </sound>
     </media>
-    <transition zoomout="0" zoomspeed="2" type="mesh" zoomafteroutfov="40" enabled="1" zoomin="7" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" blendcolor="0x000000" softedge="0" delay="none"/>
-    <autorotate speed="0.100" nodedelay="45.00" noderandom="0" enabled="1" useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" nodefilter="" delay="5.00"/>
-    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" sensitivity="8" rubberband="0" contextvr="1" contextprojections="0" simulatemass="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" zoomcentercursor="1" hideabout="0" invertwheel="0" speedwheel="1"/>
-    <vr toggleskinbutton="0" defaulthsscale="100" skinbuttonposition="0"/>
-  </panorama>
-  <panorama id="node9">
-    <input overlap="1" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" height="4096" levelbiashidpi="1.000" width="4096" levelingroll="0" leveltilesize="510">
-      <level width="4096" preload="0" predecode="0" height="4096"/>
-      <level width="2048" preload="0" predecode="0" height="2048"/>
-      <level width="1024" preload="0" predecode="0" height="1024"/>
-      <level width="512" preload="0" predecode="0" height="512"/>
-      <level width="256" preload="1" predecode="1" height="256"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="2" pannorth="4.4331">
-      <start fov="100" pan="0" tilt="0" projection="4"/>
-      <flyin fov="170" pan="0" tilt="-90" projection="9"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fov="140" pan="360" scaletofit="1" tilt="90" fovfisheye="360" fovstereographic="330"/>
-    </view>
-    <userdata info="" datetime="31/07/2025 11:21 a. m." tags="Tour360-LivingPedregal" title="Mirador - Firepit" latitude="" copyright="" source="" comment="" nodeid="node9" author="" longitude="" customnodeid="" heading="4.4331" description="">
-      <mapcoords y_floorplan_percent="7.20833" y="-0.159302" x="0.606995" mapid="FloorPlan01" x_floorplan_percent="22.5252"/>
-    </userdata>
-    <hotspots width="180" wordwrap="1" height="0" smoothmovement="0">
-      <label bordercolor="0x000000" textalpha="1" borderradius="1" enabled="1" textcolor="0xffffff" height="0" border="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" background="1" wordwrap="1" borderalpha="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
-      <hotspot title="Pasillo Verde" skinid="ht_node" url="{node8}" pan="-93.99" distance="2" id="Pasillo Verde" target="52.5/-2.6/100.0" tilt="-0.82" description=""/>
-    </hotspots>
-    <media>
-      <sound loop="0" field="90.000" level="1.000" nodechangekeep="1" pan="-94.160" mode="2" tiltsize="10.000" id="Element01" startmutedmobile="0" ambientlevel="0.000" pansize="10.000" tilt="-7.270">
-        <source mono="0" url="media/Efecto de Sonido - Ambiente de Selva Tropical -2.mp3"/>
-      </sound>
-      <lensflare pan="-36.420" type="4" alpha="80.000" id="Lensflare01" blinding="50.000" tilt="42.240" color="0xffffff"/>
-    </media>
-    <transition zoomout="0" zoomspeed="2" type="mesh" zoomafteroutfov="40" enabled="1" zoomin="7" zoomafterinfov="140" zoomoutpause="1" blendtime="1" zoomfov="40" blendcolor="0x000000" softedge="0" delay="none"/>
-    <autorotate speed="0.100" nodedelay="45.00" noderandom="0" enabled="1" useanimation="0" horizonfromdefview="0" startloaded="0" returntohorizon="0.000" nodefilter="" delay="5.00"/>
-    <animation animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" sensitivity="8" rubberband="0" contextvr="1" contextprojections="0" simulatemass="1" invertcontrol="1" dblclickfullscreen="0" contextfullscreen="1" zoomcentercursor="1" hideabout="0" invertwheel="0" speedwheel="1"/>
-    <vr toggleskinbutton="0" defaulthsscale="100" skinbuttonposition="0"/>
+    <transition softedge="0" zoomfov="40" zoomout="0" zoomafteroutfov="40" blendtime="1" enabled="1" zoomafterinfov="140" type="crossdissolve" delay="none" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" zoomin="0"/>
+    <autorotate returntohorizon="0.000" horizonfromdefview="0" enabled="1" speed="0.100" startloaded="0" noderandom="1" useanimation="0" delay="5.00" nodefilter="" nodedelay="0.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control contextprojections="0" hideabout="0" contextvr="1" rubberband="0" lockedkeyboard="0" invertwheel="0" lockedmouse="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" zoomcentercursor="1" speedwheel="1" dblclickfullscreen="0" invertcontrol="1" contextfullscreen="1" simulatemass="1"/>
+    <vr toggleskinbutton="1" skinbuttonposition="0" defaulthsscale="100"/>
   </panorama>
   <masternode>
-    <userdata comment="" tags="" title="Living Pedregal  Torres B y C" author="Dakab Grupo Inmobiliario" copyright="Dakab Grupo Inmobiliario" description="Desarrollo Inmobiliario "/>
+    <userdata comment="" tags="" author="Dakab Grupo Inmobiliario" title="Living Pedregal  Torres B y C" description="Desarrollo Inmobiliario " copyright="Dakab Grupo Inmobiliario"/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map bgcolor="rgba(255, 255, 255, 1)" type="file" crispedges="0" title="" zoomlevels="1" transparent="0" height="6437" tileformat="jpg" floorplannorth="0" index="0" id="FloorPlan01" width="7849"/>
+  <map id="FloorPlan01" title="" tileformat="jpg" bgcolor="rgba(255, 255, 255, 1)" transparent="0" width="7849" crispedges="0" floorplannorth="0" type="file" height="6437" index="0" zoomlevels="1"/>
 </tour>
